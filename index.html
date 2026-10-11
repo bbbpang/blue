@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Year in Between</title>
+  <meta name="description" content="Notes on life, music, films, and everything in between." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">A Year in Between<span>✳</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav">
+      <a href="#calendar">The Calendar</a>
+      <a href="#journal">The Journal</a>
+      <a href="#soundtrack">The Soundtrack</a>
+      <a href="#films">Films & Thoughts</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A collection of little things</p>
+        <h1>A Little World<br><em>of My Own</em></h1>
+        <p class="hero-copy">A year abroad, one day at a time.</p>
+        <p class="hero-description">This is my little corner of the internet, where I collect pieces of my life in the UK — ordinary days, new places, songs on repeat, films that stay with me, and little moments I don't want to forget.</p>
+        <a class="button" href="#calendar">Step Into My Little World <span>↗</span></a>
+      </div>
+     
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">A note to begin</p>
+      <h2>Some days are worth writing about.<br><em>Others are just worth remembering.</em></h2>
+      <p>Nothing too polished, nothing too serious. Just a small record of a year that is still unfolding.</p>
+    </section>
+
+
+    <section class="section-wrap calendar-section" id="calendar">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / The days that make a year</p><h2>The Calendar</h2></div>
+        <p>Every day leaves something behind. Pick a date to revisit a little memory from my year.</p>
+      </div>
+      <div class="calendar-card">
+        <div class="calendar-top">
+          <button id="prev-month" aria-label="Previous month">←</button>
+          <h3 id="month-label">October 2026</h3>
+          <button id="next-month" aria-label="Next month">→</button>
+        </div>
+        <div class="calendar-grid" id="calendar-grid"></div>
+       <div class="memory-panel" aria-live="polite">
+  <div class="memory-panel-inner">
+    
+    <p class="eyebrow" id="memory-date">A LITTLE MEMORY</p>
+    <h3 id="memory-title">Choose a date</h3>
+   
+   <p id="memory-text">Some dates hold a story. Click a highlighted day to see what happened.</p>
+<div class="photo-slider">
+  <div class="photo-slider-wrap"></div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+    
+
+    <section class="section-wrap journal-section" id="journal">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / Ordinary, in its own way</p><h2>The Journal</h2></div>
+        <p>Not every day is extraordinary, and that's the beauty of it.</p>
+      </div>
+      <div class="story-grid">
+        <article class="story-card story-large">
+          <div class="story-image image-rain"></div>
+          <div class="story-meta">LIFE IN THE UK · 5 MIN READ</div>
+          <h3>Getting used to the in-between</h3>
+          <p>New streets, unfamiliar routines, and the small ways a place slowly starts to feel like yours.</p>
+          <a href="#about" class="text-link">A note from abroad ↗</a>
+        </article>
+        <article class="story-card">
+          <div class="story-image image-cafe"></div>
+          <div class="story-meta">LITTLE MOMENTS</div>
+          <h3>A quiet afternoon</h3>
+          <p>A warm drink, a window seat, and nowhere else I needed to be.</p>
+          <a href="#about" class="text-link">Read the note ↗</a>
+        </article>
+      </div>
+      <p class="small-note">Sample entries for now — replace these with your own stories when you're ready.</p>
+    </section>
+
+    <section class="soundtrack-section" id="soundtrack">
+      <div class="soundtrack-image"></div>
+      <div class="soundtrack-content">
+        <p class="eyebrow">03 / Press play, stay awhile</p>
+        <h2>The<br><em>Soundtrack</em></h2>
+        <p>Some songs belong to certain moments. The music I play on repeat, the songs I discover by accident, and the ones that somehow remind me of a particular day.</p>
+        <p>This is the soundtrack to my year — one song, one memory at a time.</p>
+        <div class="track"><span class="track-number">01</span><div><strong>Your song goes here</strong><small>Artist name · Memory attached to it</small></div><span class="track-icon">♫</span></div>
+        <div class="track"><span class="track-number">02</span><div><strong>Another song to remember</strong><small>Artist name · A late-night favourite</small></div><span class="track-icon">♫</span></div>
+        <p class="small-note">Add your own songs, artists, links, and memories here.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap films-section" id="films">
+      <div class="section-heading">
+        <div><p class="eyebrow">04 / After the credits</p><h2>Films & Thoughts</h2></div>
+        <p>Not quite reviews, just a few thoughts of my own.</p>
+      </div>
+      <div class="film-grid">
+        <article class="film-card"><div class="film-art film-art-one"><span>FRAME 01</span></div><h3>A film that stayed</h3><p>Some stories follow you out of the cinema and into the days that come after.</p><span class="film-tag">FILM NOTES</span></article>
+        <article class="film-card"><div class="film-art film-art-two"><span>FRAME 02</span></div><h3>Lines worth keeping</h3><p>A sentence, a scene, a feeling I can't quite explain — saved here for later.</p><span class="film-tag">THOUGHTS</span></article>
+        <article class="film-card"><div class="film-art film-art-three"><span>FRAME 03</span></div><h3>On a rainy evening</h3><p>For the films that feel best when the world outside goes quiet.</p><span class="film-tag">WATCHLIST</span></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+     
+   <div class="about-image">
+  <img src="./image/f7b3bbdf94c898e3667bc35792978ca8.jpg" alt="My portrait taken in Leeds">
+</div>
+
+      <div class="about-copy">
+        <p class="eyebrow">05 / The person behind the pages</p>
+        <h2>A year, kept<br><em>in little pieces.</em></h2>
+        <p>Hi, I'm the person behind these pages. I'm spending a year studying in the UK, and I wanted a place to keep the things that might otherwise slip away — the everyday moments, the places I visit, the music I love, and the films that stay on my mind.</p>
+        <p>Maybe this will become a little time capsule of a year I'll always remember.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">A Year in Between<span>✳</span></a><p>Made of ordinary days and little things worth keeping.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
